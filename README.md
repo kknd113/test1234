@@ -7,9 +7,7 @@ Local Installation Instructions
 - To run the app: `python manage.py syncdb`, followed by `python manage.py runserver`
 - To run tests: `python manage.py test -v2`
 - To populate the DB with some test data: `python manage.py shell < scripts/populate_db.py`
-
-To set up and update venv:
-- Create your own venv using `virtualenv venv` (venv/* is ignored in the .gitignore file)
+ using `virtualenv venv` (venv/* is ignored in the .gitignore file)
 - `source venv/bin/activate`
 - Use `pip install --allow-all-external -r requirements.txt` to download site packages
   - JP: I had to add ARCHFLAGS based on this post [http://stackoverflow.com/questions/22312583/cant-install-mysql-gem-on-os-x]
